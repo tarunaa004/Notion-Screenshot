@@ -8,7 +8,7 @@ export default defineConfig({
     rollupOptions: {
       input: {
         main: './index.html',
-        options: './public/options.html',
+        options: './options.html',
       },
       output: {
         entryFileNames: 'assets/[name]-[hash].js',
